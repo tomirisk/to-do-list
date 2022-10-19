@@ -1,0 +1,44 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+*.bin
+*.bin
+*.lock
+Hw07/.gradle/6.8/executionHistory/executionHistory.bin
+*.properties
+Hw07/.idea/compiler.xml
+Hw07/.idea/gradle.xml
+Hw07/.idea/jarRepositories.xml
+*.xml
+*.exec
+*.gif
+*.css
+*.js
+*.html
+*.idx
+*.MF
+*.cache
+Hw07/gradlew
+*.bat
+Hw07/settings.gradle
+Hw07/src/.DS_Store
