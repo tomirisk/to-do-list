@@ -1,0 +1,15 @@
+-classpath '/Users/tkozhabekkyzy/Desktop/Hw9 final/build/classes/java/main:/Users/tkozhabekkyzy/Desktop/Hw9 final/build/resources/main'
+-d '/Users/tkozhabekkyzy/Desktop/Hw9 final/build/docs/javadoc'
+-doctitle 'Hw9 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'Hw9 1.0-SNAPSHOT API'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/fileProcessing/CSVReader.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/todoList/Display.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/todoList/TodoList.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/todoList/ITodoList.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/todoList/Todo.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/commonLineParser/Option.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/commonLineParser/CommandLine.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/commonLineParser/Main.java'
+'/Users/tkozhabekkyzy/Desktop/Hw9 final/src/main/java/commonLineParser/Options.java'
