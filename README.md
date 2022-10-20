@@ -9,6 +9,28 @@ Command-line To-Do application. The system will allow a user to add and track th
 - Display todos: can be filtered by status, category and date.
 The two filter arguments can be combined but only one sort can be applied at a time.
 
+### Content
+Main.java<br />
+Display.java - Display class, manages view
+
+/commandLineParser 
+<br />&nbsp;&nbsp;&nbsp;&nbsp;CommandLine.java - CommandLine class, provides parsing for command line options
+<br />&nbsp;&nbsp;&nbsp;&nbsp;Option.java - Option class, represents a command option and its information
+<br />&nbsp;&nbsp;&nbsp;&nbsp;Options.java - Options class, stores a groups of command options
+
+/fileProcessing
+<br />&nbsp;&nbsp;&nbsp;&nbsp;CSVReader.java - CSVReader class, reads and process a CVS file to extract its data
+
+/todoList
+<br />&nbsp;&nbsp;&nbsp;&nbsp;ITodoList - todolist class interface
+<br />&nbsp;&nbsp;&nbsp;&nbsp;Todo.java - class Todo, representing a task that user stores in a todo application
+<br />&nbsp;&nbsp;&nbsp;&nbsp;TodoList.java - class TodoList, representing the list of todos
+
+/test
+<br />&nbsp;&nbsp;&nbsp;&nbsp;CSVReaderTest.java
+<br />&nbsp;&nbsp;&nbsp;&nbsp;TodoListTest.java
+<br />&nbsp;&nbsp;&nbsp;&nbsp;TodoTest.java
+
 ### Instructions
 | Command                                 | Description                             | 
 | :------------------                     |   :-------------                            | 
@@ -25,4 +47,3 @@ The two filter arguments can be combined but only one sort can be applied at a t
 |`--show-category <category>`             | (Optional) If --display is provided, only todos with the given category should be displayed.     |
 | `--sort-by-date`                        | (Optional) If --display is provided, sort the list of todos by date order (ascending). Cannot be combined with --sort-by- priority.     |
 |`--sort-by-priority`                     | (Optional) If --display is provided, sort the list of todos by priority (ascending). Cannot be combined with --sort-by-date.      |
-
