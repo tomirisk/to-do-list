@@ -3,7 +3,7 @@
 ### Project Description
 Command-line To-Do application. The system will allow a user to add and track the status of their To-Dos by the due date, category, priority, and status. The application stores all To-Dos in a CSV file. 
 
-### Funcionality
+### Functionality
 - Add a new todo
 - Complete an existing todo
 - Display todos: can be filtered by status, category and date.
